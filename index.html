@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="app-name">Weather App</div>
+  </nav>
+
+  <main>
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="Enter City Name..." id="city" aria-label="Enter city name">
+      <button class="search-button" onclick="getWeather()">
+        <img src="search icon.png" alt="Search city weather" class="search-icon">
+      </button>
+    </div>
+
+    <div class="weather-container">
+      <img src="Emoji.png" alt="Weather condition" class="weather-icon">
+      <p id="description" class="description">Weather Description</p>
+      <h1 id="temperature" class="temperature">--°C</h1>
+      <h2 id="city-name" class="city-name">City Name</h2>
+    </div>
+
+    <div class="details-container">
+      <div class="detail">
+        <img src="humidity.png" alt="Humidity Icon" class="detail-icon">
+        <div>
+          <p id="humidity-value" class="humidity-value">--%</p>
+          <p class="humidity-label">Humidity</p>
+        </div>
+      </div>
+      <div class="detail">
+        <img src="wind.png" alt="Wind Icon" class="detail-icon">
+        <div>
+          <p id="wind-value" class="wind-value">-- km/h</p>
+          <p class="wind-label">Wind</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>

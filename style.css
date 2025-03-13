@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4DA1A9;
+    color: #333;
+  }
+  
+  .navbar {
+    background-color: #0e8c93;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .search-container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-input {
+    height: 40px;
+    width: 200px;
+    padding: 0 15px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    font-size: 1rem;
+    transition: all 0.3s;
+  }
+  
+  .search-input:focus {
+    border-color: #4DA1A9;
+    box-shadow: 0 0 5px #4DA1A9;
+  }
+  
+  .search-button {
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #5cbba3;
+  }
+  
+  .search-icon {
+    height: 20px;
+    width: 20px;
+  }
+  
+  /* Weather Display */
+  .weather-container {
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  .weather-icon {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .temperature {
+    font-size: 3rem;
+    color: white;
+    margin: 5px 0;
+  }
+  
+  .city-name {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  /* Weather Details */
+  .details-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px auto;
+  }
+  
+  .detail {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .detail-icon {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .humidity-value,
+  .wind-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .humidity-label,
+  .wind-label {
+    font-size: 0.9rem;
+    color: white;
+  }
+  
